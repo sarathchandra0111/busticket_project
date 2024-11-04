@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bollam Travels</title>
+    <style>
+        .photo{
+            background-image: url("./images/home\ page.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment:scroll;
+            height:500px;
+        }
+        .container{
+            position:absolute;
+            top:35%;
+            left:28%;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding:20px;
+        }
+        input{
+            width: 100%;
+
+        }
+        .book{
+            position:absolute;
+            top:150%;
+            left:42%;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: red; padding:0px 1px 1px opx; margin:1px; box-shadow:0 0 20px black;">
+        <h1  style="color:white; font-size: 300%;">Bollam Travels &#128652; <u style="color:white;">Book your bus tickets</u>&#129489;Account</h1>
+    </div> 
+    <marquee style="font-size: 30px; background-color: aqua;">&#128652; BOLLAM TRAVELS &#128652;</marquee>
+    <div class="photo">
+        <big>
+            <p align="center" style="color:red; padding:20px; margin:20px; font-size: 70px;">Take a Safe journey with us</p>
+            <div class="container">
+                <form action="ticketbooking.html" method="post">
+                    <lable name="from">From:</lable>
+                    <input type="text" id="from" name="from" placeholder="From" required/>
+                    <lable name="to">To:</lable>
+                    <input type="text" id="to" name="to" placeholder="to" required/>
+                    <lable name="date">Date:</lable>
+                    <input type="date" id="date" name="date" placeholder="date" required/>
+                    <div class="book">
+                        <input type="submit"  name="submit" value="Book Tickets"/>
+                    </div>
+                </form>
+            </div>
+        </big>
+
+    </div> 
+    <div  style="background-color: skyblue; padding:10px; margin:10px; box-shadow:0 0 20px black;">
+        <a href="copyrightpage.html"<p style="font-size: 30px; color:blue">CopyRight &copy</p></a>
+        <a href="achivements.html"<p style="font-size: 30px; color:blue">Our Achivements &#127942;</p></a>
+        <a href="Reviews.html"<p style="font-size: 30px; color: blue;">reviews from our happy customers &#128172;</p></a>
+        <a href="mailto:sarathc381@gmail.com"<p style="font-size: 30px;">Mail Us &#9993;</p></a>
+        <a href="tel:+916302133327"<p style="font-size: 30px;">Call Us &#128241;</p></a>
+    </div> 
+</body>
+</html>
